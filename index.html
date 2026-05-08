@@ -3,15 +3,11 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Garage Door Repair {{CITY}} | Overhead Door Company of {{CITY}}&#8482;</title>
-<meta name="description" content="Garage door repair in {{CITY}} by Overhead Door Company of {{CITY}}&#8482;. $0 service call with any repair. Non-commission technicians. Call {{PHONE_DISPLAY}}.">
+<title>Garage Door Repair Savannah | Overhead Door Company of Savannah&#8482;</title>
+<meta name="description" content="Garage door repair in Savannah by Overhead Door Company of Savannah&#8482;. $0 service call with any repair. Non-commission technicians. Call (912) 964-8459.">
 <link rel="icon" type="image/png" href="assets/favicon.png">
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<!-- Bodoni Moda = closest Google Fonts match to Bodoni Std (residential headlines per brand guide) -->
-<!-- Nunito Sans = closest Google Fonts match to Avenir LT Std (all body copy per brand guide) -->
-<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<!-- Avenir LT Std / Avenir loads natively on Apple devices; Segoe UI / Roboto on Windows / Android -->
 
 <style>
 /* ==============================================
@@ -35,8 +31,8 @@
   --line:         #E6E7E8;
   --line-soft:    #F2F3F4;
 
-  --font-display: 'Plus Jakarta Sans', 'Avenir LT Std', Avenir, sans-serif;
-  --font-body:    'Plus Jakarta Sans', 'Avenir LT Std', Avenir, sans-serif;
+  --font-display: 'Avenir LT Std', Avenir, 'Segoe UI', Roboto, sans-serif;
+  --font-body:    'Avenir LT Std', Avenir, 'Segoe UI', Roboto, sans-serif;
 
   /* PPC density — tighter than a website, everything above fold fast */
   --section-pad:  clamp(36px, 5vw, 60px);
@@ -334,7 +330,7 @@ button{font:inherit;cursor:pointer;border:none;background:none;color:inherit}
 
 .footer{background:var(--ribbon-black);padding:26px 0}
 .footer-grid{display:flex;align-items:center;justify-content:space-between;gap:18px;flex-wrap:wrap;padding-bottom:14px;border-bottom:1px solid rgba(255,255,255,.1);margin-bottom:12px}
-.footer-logo{height:36px;width:auto;filter:brightness(0) invert(1)}
+.footer-logo{height:36px;width:auto}
 .footer-brand-name{font-family:var(--font-body);font-size:11px;color:rgba(255,255,255,.4);margin-top:5px}
 .footer-phone-block{display:flex;flex-direction:column;align-items:flex-end;gap:2px}
 .footer-lbl{font-size:10px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,.35)}
@@ -376,11 +372,11 @@ button{font:inherit;cursor:pointer;border:none;background:none;color:inherit}
   <div class="container">
     <div class="strip-status">
       <span class="strip-dot" aria-hidden="true"></span>
-      <span>{{HOURS_SHORT}}</span>
+      <span>M-F 7:30AM - 4:30PM</span>
     </div>
-    <a href="tel:{{PHONE}}" class="strip-phone" aria-label="Call {{PHONE_DISPLAY}}">
+    <a href="tel:9129648459" class="strip-phone" aria-label="Call (912) 964-8459">
       <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1-9.4 0-17-7.6-17-17 0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1l-2.3 2.2z"/></svg>
-      {{PHONE_DISPLAY}}
+      (912) 964-8459
     </a>
   </div>
 </div>
@@ -389,20 +385,20 @@ button{font:inherit;cursor:pointer;border:none;background:none;color:inherit}
 <header class="site-header">
   <div class="container">
     <div class="header-inner">
-      <a href="/" class="brand-wrap" aria-label="Overhead Door Company of {{CITY}}">
-        <img class="brand-logo" src="OHD_Ribbon_Web.svg" alt="Overhead Door Company of {{CITY}}&#8482;">
+      <a href="/" class="brand-wrap" aria-label="Overhead Door Company of Savannah">
+        <img class="brand-logo" src="OHD_Ribbon_Web.svg" alt="Overhead Door Company of Savannah&#8482;">
         <div class="brand-name">
-          <strong>Overhead Door Company of {{CITY}}&#8482;</strong>
+          <strong>Overhead Door Company of Savannah&#8482;</strong>
           <span>The Genuine. The Original.</span>
         </div>
       </a>
-      <a href="tel:{{PHONE}}" class="header-cta" data-loc="header" aria-label="Call {{PHONE_DISPLAY}}">
+      <a href="tel:9129648459" class="header-cta" data-loc="header" aria-label="Call (912) 964-8459">
         <span class="ph-ring" aria-hidden="true">
           <svg viewBox="0 0 24 24"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1-9.4 0-17-7.6-17-17 0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1l-2.3 2.2z"/></svg>
         </span>
         <span class="cta-stack">
           <span class="cta-lbl">Call for Free Estimate</span>
-          <span>{{PHONE_DISPLAY}}</span>
+          <span>(912) 964-8459</span>
         </span>
       </a>
     </div>
@@ -424,13 +420,13 @@ button{font:inherit;cursor:pointer;border:none;background:none;color:inherit}
           <svg viewBox="0 0 20 20"><path d="M10 1l2.4 6.4H19l-5.3 4 2 6.5L10 14l-5.7 3.9 2-6.5-5.3-4h6.6z"/></svg>
           <svg viewBox="0 0 20 20"><path d="M10 1l2.4 6.4H19l-5.3 4 2 6.5L10 14l-5.7 3.9 2-6.5-5.3-4h6.6z"/></svg>
         </div>
-        <span class="proof-txt"><strong>{{STARS}}</strong> &nbsp;&mdash;&nbsp; {{REVIEWS}}+ Google Reviews</span>
+        <span class="proof-txt"><strong>4.6</strong> &nbsp;&mdash;&nbsp; 150+ Google Reviews</span>
         <span class="proof-sep" aria-hidden="true"></span>
-        <span class="proof-txt">Serving {{CITY}} {{YEARS_LOCAL}}+ years</span>
+        <span class="proof-txt">Serving Savannah 35+ years</span>
       </div>
       <!-- /REVIEWS -->
 
-      <h1>Garage Door Repair<br>in <span class="city">{{CITY}}</span></h1>
+      <h1>Garage Door Repair<br>in <span class="city">Savannah</span></h1>
 
       <p class="hero-sub">
         Same-day service available. <strong>Upfront pricing, no surprises.</strong> Our non-commission technicians fix it right the first time — because they're paid to solve problems, not sell upgrades.
@@ -444,18 +440,18 @@ button{font:inherit;cursor:pointer;border:none;background:none;color:inherit}
       </div>
 
       <div class="hero-ctas">
-        <a href="tel:{{PHONE}}" class="btn-primary" data-loc="hero">
+        <a href="tel:9129648459" class="btn-primary" data-loc="hero">
           <span class="ph-ring" aria-hidden="true">
             <svg viewBox="0 0 24 24"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1-9.4 0-17-7.6-17-17 0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1l-2.3 2.2z"/></svg>
           </span>
           <span class="cta-stack">
             <span class="cta-lbl">Call for Free Estimate</span>
-            <span>{{PHONE_DISPLAY}}</span>
+            <span>(912) 964-8459</span>
           </span>
         </a>
         <a href="#request" class="link-form">Request a callback &rarr;</a>
       </div>
-      <p class="hero-avail"><span class="avail-dot" aria-hidden="true"></span>{{HOURS_SHORT}}</p>
+      <p class="hero-avail"><span class="avail-dot" aria-hidden="true"></span>M-F 7:30AM - 4:30PM</p>
 
     </div>
   </div>
@@ -470,12 +466,12 @@ button{font:inherit;cursor:pointer;border:none;background:none;color:inherit}
         <div class="trust-lbl">Years<small>The Original. Since 1921.</small></div>
       </div>
       <div class="trust-stat">
-        <div class="trust-num">{{YEARS_LOCAL}}<span class="accent">+</span></div>
-        <div class="trust-lbl">Years in {{CITY}}<small>Locally owned &amp; operated</small></div>
+        <div class="trust-num">35<span class="accent">+</span></div>
+        <div class="trust-lbl">Years in Savannah<small>Locally owned &amp; operated</small></div>
       </div>
       <div class="trust-stat">
-        <div class="trust-num">{{STARS}}</div>
-        <div class="trust-lbl">Stars<small>{{REVIEWS}}+ Google reviews</small></div>
+        <div class="trust-num">4.6</div>
+        <div class="trust-lbl">Stars<small>150+ Google reviews</small></div>
       </div>
       <div class="trust-stat">
         <div class="trust-num"><span class="accent">$0</span></div>
@@ -489,7 +485,7 @@ button{font:inherit;cursor:pointer;border:none;background:none;color:inherit}
 <section class="section" id="services">
   <div class="container">
     <div class="section-head reveal">
-      <span class="eyebrow">Garage Door Repair — {{CITY}}</span>
+      <span class="eyebrow">Garage Door Repair — Savannah</span>
       <h2>What's wrong with your garage door?</h2>
       <p>We carry parts on every truck. Most repairs are completed in a single visit.</p>
     </div>
@@ -497,22 +493,22 @@ button{font:inherit;cursor:pointer;border:none;background:none;color:inherit}
       <div class="symptom reveal">
         <h3>Door Won't Open or Close</h3>
         <p>Could be springs, cables, sensors, or the opener. We diagnose the issue on the first visit and carry the parts to complete the repair the same day.</p>
-        <a href="tel:{{PHONE}}" class="symptom-cta" data-loc="symptom-1">Call for Free Estimate <svg viewBox="0 0 24 24"><path d="M8.6 16.3l4.6-4.6-4.6-4.6L10 5.7l6 6-6 6z"/></svg></a>
+        <a href="tel:9129648459" class="symptom-cta" data-loc="symptom-1">Call for Free Estimate <svg viewBox="0 0 24 24"><path d="M8.6 16.3l4.6-4.6-4.6-4.6L10 5.7l6 6-6 6z"/></svg></a>
       </div>
       <div class="symptom reveal">
         <h3>Broken Spring or Loud Bang</h3>
         <p>A broken torsion spring is one of the most common garage door failures. Do not force the door open. We stock the most common spring sizes on every truck.</p>
-        <a href="tel:{{PHONE}}" class="symptom-cta" data-loc="symptom-2">Call for Free Estimate <svg viewBox="0 0 24 24"><path d="M8.6 16.3l4.6-4.6-4.6-4.6L10 5.7l6 6-6 6z"/></svg></a>
+        <a href="tel:9129648459" class="symptom-cta" data-loc="symptom-2">Call for Free Estimate <svg viewBox="0 0 24 24"><path d="M8.6 16.3l4.6-4.6-4.6-4.6L10 5.7l6 6-6 6z"/></svg></a>
       </div>
       <div class="symptom reveal">
         <h3>Opener Won't Respond</h3>
         <p>Our non-commission technicians check the simplest fix first. They have no incentive to recommend a replacement you do not need.</p>
-        <a href="tel:{{PHONE}}" class="symptom-cta" data-loc="symptom-3">Call for Free Estimate <svg viewBox="0 0 24 24"><path d="M8.6 16.3l4.6-4.6-4.6-4.6L10 5.7l6 6-6 6z"/></svg></a>
+        <a href="tel:9129648459" class="symptom-cta" data-loc="symptom-3">Call for Free Estimate <svg viewBox="0 0 24 24"><path d="M8.6 16.3l4.6-4.6-4.6-4.6L10 5.7l6 6-6 6z"/></svg></a>
       </div>
       <div class="symptom reveal">
         <h3>Door Off Track or Stuck</h3>
         <p>An off-track door is a safety issue. Do not force it open. Call us — same-day service is available subject to technician availability.</p>
-        <a href="tel:{{PHONE}}" class="symptom-cta" data-loc="symptom-4">Call for Free Estimate <svg viewBox="0 0 24 24"><path d="M8.6 16.3l4.6-4.6-4.6-4.6L10 5.7l6 6-6 6z"/></svg></a>
+        <a href="tel:9129648459" class="symptom-cta" data-loc="symptom-4">Call for Free Estimate <svg viewBox="0 0 24 24"><path d="M8.6 16.3l4.6-4.6-4.6-4.6L10 5.7l6 6-6 6z"/></svg></a>
       </div>
     </div>
   </div>
@@ -522,7 +518,7 @@ button{font:inherit;cursor:pointer;border:none;background:none;color:inherit}
 <section class="section section--warm">
   <div class="container">
     <div class="section-head reveal">
-      <span class="eyebrow">Why {{CITY}} Homeowners Choose Overhead Door Company of {{CITY}}™</span>
+      <span class="eyebrow">Why Savannah Homeowners Choose Overhead Door Company of Savannah™</span>
       <h2>Not all garage door companies are the same</h2>
     </div>
     <div class="why-list">
@@ -535,7 +531,7 @@ button{font:inherit;cursor:pointer;border:none;background:none;color:inherit}
       <div class="why-item reveal">
         <div>
           <h3>The Original. Since 1921.</h3>
-          <p>C.G. Johnson invented the overhead garage door in 1921. Overhead Door&#8482; brand has been setting the standard for over 100 years — <strong>because we built this industry.</strong> Overhead Door Company of {{CITY}}&#8482; has served this area for {{YEARS_LOCAL}}+ years.</p>
+          <p>C.G. Johnson invented the overhead garage door in 1921. Overhead Door&#8482; brand has been setting the standard for over 100 years — <strong>because we built this industry.</strong> Overhead Door Company of Savannah&#8482; has served this area for 35+ years.</p>
         </div>
       </div>
       <div class="why-item reveal">
@@ -553,11 +549,11 @@ button{font:inherit;cursor:pointer;border:none;background:none;color:inherit}
 <section class="section" id="reviews">
   <div class="container">
     <div class="section-head reveal">
-      <span class="eyebrow">Customer Reviews — {{CITY}}</span>
-      <h2>What {{CITY}} homeowners say</h2>
+      <span class="eyebrow">Customer Reviews — Savannah</span>
+      <h2>What Savannah homeowners say</h2>
     </div>
     <div class="reviews-agg reveal">
-      <div class="agg-rating">{{STARS}}</div>
+      <div class="agg-rating">4.6</div>
       <div>
         <div class="agg-stars" aria-hidden="true">
           <svg viewBox="0 0 20 20"><path d="M10 1l2.4 6.4H19l-5.3 4 2 6.5L10 14l-5.7 3.9 2-6.5-5.3-4h6.6z"/></svg>
@@ -566,7 +562,7 @@ button{font:inherit;cursor:pointer;border:none;background:none;color:inherit}
           <svg viewBox="0 0 20 20"><path d="M10 1l2.4 6.4H19l-5.3 4 2 6.5L10 14l-5.7 3.9 2-6.5-5.3-4h6.6z"/></svg>
           <svg viewBox="0 0 20 20"><path d="M10 1l2.4 6.4H19l-5.3 4 2 6.5L10 14l-5.7 3.9 2-6.5-5.3-4h6.6z"/></svg>
         </div>
-        <div class="agg-count"><strong>{{REVIEWS}}+</strong> Google Reviews</div>
+        <div class="agg-count"><strong>150+</strong> Google Reviews</div>
       </div>
     </div>
     <div class="reviews-grid">
@@ -574,22 +570,22 @@ button{font:inherit;cursor:pointer;border:none;background:none;color:inherit}
         <div class="review-stars" aria-label="5 stars">
           <svg viewBox="0 0 20 20"><path d="M10 1l2.4 6.4H19l-5.3 4 2 6.5L10 14l-5.7 3.9 2-6.5-5.3-4h6.6z"/></svg><svg viewBox="0 0 20 20"><path d="M10 1l2.4 6.4H19l-5.3 4 2 6.5L10 14l-5.7 3.9 2-6.5-5.3-4h6.6z"/></svg><svg viewBox="0 0 20 20"><path d="M10 1l2.4 6.4H19l-5.3 4 2 6.5L10 14l-5.7 3.9 2-6.5-5.3-4h6.6z"/></svg><svg viewBox="0 0 20 20"><path d="M10 1l2.4 6.4H19l-5.3 4 2 6.5L10 14l-5.7 3.9 2-6.5-5.3-4h6.6z"/></svg><svg viewBox="0 0 20 20"><path d="M10 1l2.4 6.4H19l-5.3 4 2 6.5L10 14l-5.7 3.9 2-6.5-5.3-4h6.6z"/></svg>
         </div>
-        <p class="review-text">&ldquo;{{REVIEW_1_TEXT}}&rdquo;</p>
-        <div class="review-meta"><span class="review-author">{{REVIEW_1_AUTHOR}}</span><span class="review-date">{{REVIEW_1_DATE}}</span></div>
+        <p class="review-text">&ldquo;I can't even begin to explain how happy me and my wife are with the work that Cameron did when he came to service an issue on our garage door. If I hadn't have been here I would have sworn that he replaced the whole thing it's like we have a brand new garage door. His attention to detail was fantastic and he was willing to explain to me so that I could understand the functions and maintenance.... Thank you Cameron for an amazing job and wonderful experience!!!!&rdquo;</p>
+        <div class="review-meta"><span class="review-author">Stephen H.</span><span class="review-date"></span></div>
       </div>
       <div class="review reveal">
         <div class="review-stars" aria-label="5 stars">
           <svg viewBox="0 0 20 20"><path d="M10 1l2.4 6.4H19l-5.3 4 2 6.5L10 14l-5.7 3.9 2-6.5-5.3-4h6.6z"/></svg><svg viewBox="0 0 20 20"><path d="M10 1l2.4 6.4H19l-5.3 4 2 6.5L10 14l-5.7 3.9 2-6.5-5.3-4h6.6z"/></svg><svg viewBox="0 0 20 20"><path d="M10 1l2.4 6.4H19l-5.3 4 2 6.5L10 14l-5.7 3.9 2-6.5-5.3-4h6.6z"/></svg><svg viewBox="0 0 20 20"><path d="M10 1l2.4 6.4H19l-5.3 4 2 6.5L10 14l-5.7 3.9 2-6.5-5.3-4h6.6z"/></svg><svg viewBox="0 0 20 20"><path d="M10 1l2.4 6.4H19l-5.3 4 2 6.5L10 14l-5.7 3.9 2-6.5-5.3-4h6.6z"/></svg>
         </div>
-        <p class="review-text">&ldquo;{{REVIEW_2_TEXT}}&rdquo;</p>
-        <div class="review-meta"><span class="review-author">{{REVIEW_2_AUTHOR}}</span><span class="review-date">{{REVIEW_2_DATE}}</span></div>
+        <p class="review-text">&ldquo;Overhead Doors technician Cameron did an outstanding job replacing the counterbalance springs on my garage door. He arrived on time and was very respectful and engaging throughout the visit. Cameron clearly explained what he was repairing and took the time to walk me through detailed preventative maintenance steps to help keep the moving components of my garage door in excellent operating condition. Cameron, you’re the man—thank you for your outstanding service.&rdquo;</p>
+        <div class="review-meta"><span class="review-author">Roque G.</span><span class="review-date"></span></div>
       </div>
       <div class="review reveal">
         <div class="review-stars" aria-label="5 stars">
           <svg viewBox="0 0 20 20"><path d="M10 1l2.4 6.4H19l-5.3 4 2 6.5L10 14l-5.7 3.9 2-6.5-5.3-4h6.6z"/></svg><svg viewBox="0 0 20 20"><path d="M10 1l2.4 6.4H19l-5.3 4 2 6.5L10 14l-5.7 3.9 2-6.5-5.3-4h6.6z"/></svg><svg viewBox="0 0 20 20"><path d="M10 1l2.4 6.4H19l-5.3 4 2 6.5L10 14l-5.7 3.9 2-6.5-5.3-4h6.6z"/></svg><svg viewBox="0 0 20 20"><path d="M10 1l2.4 6.4H19l-5.3 4 2 6.5L10 14l-5.7 3.9 2-6.5-5.3-4h6.6z"/></svg><svg viewBox="0 0 20 20"><path d="M10 1l2.4 6.4H19l-5.3 4 2 6.5L10 14l-5.7 3.9 2-6.5-5.3-4h6.6z"/></svg>
         </div>
-        <p class="review-text">&ldquo;{{REVIEW_3_TEXT}}&rdquo;</p>
-        <div class="review-meta"><span class="review-author">{{REVIEW_3_AUTHOR}}</span><span class="review-date">{{REVIEW_3_DATE}}</span></div>
+        <p class="review-text">&ldquo;Just had the pleasure of working with Overhead Door of Savannah and cannot recommend them highly enough. I knew I had a snapped cable that had moved the springs off center. Cameron came and took a look at it for me and was quick to replace the cable but then recognized another piece had broken. He gave me two options- one replaced the whole unit or two - he’d go back to the shop and see if he could find that piece. What’s important about that Is that my unit is older and he wasn’t sure but he would be able to get the part we needed but he would do his best. Turns out they had the part! Cameron came back the very next day replaced it, oiled all of the hinges and springs and the garage door works beautifully. He was very courteous and kind. He explained everything to me and showed me what he had replaced and how to take care of the garage door for the next few years. It was a great job done by a very nice and professional young man.&rdquo;</p>
+        <div class="review-meta"><span class="review-author">Allison H.</span><span class="review-date"></span></div>
       </div>
     </div>
   </div>
@@ -606,7 +602,7 @@ button{font:inherit;cursor:pointer;border:none;background:none;color:inherit}
     <div class="faq-list reveal">
       <details class="faq-item">
         <summary class="faq-q"><span>Is same-day service available?</span><span class="faq-toggle" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M11 5h2v14h-2z"/><path d="M5 11h14v2H5z"/></svg></span></summary>
-        <div class="faq-a">Same-day service is available subject to technician availability. Call <a href="tel:{{PHONE}}">{{PHONE_DISPLAY}}</a> and we will give you an accurate arrival window based on current schedule.</div>
+        <div class="faq-a">Same-day service is available subject to technician availability. Call <a href="tel:9129648459">(912) 964-8459</a> and we will give you an accurate arrival window based on current schedule.</div>
       </details>
       <details class="faq-item">
         <summary class="faq-q"><span>What does "$0 service call with repair" mean?</span><span class="faq-toggle" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M11 5h2v14h-2z"/><path d="M5 11h14v2H5z"/></svg></span></summary>
@@ -633,19 +629,19 @@ button{font:inherit;cursor:pointer;border:none;background:none;color:inherit}
   <div class="container">
     <div class="cta-strip-inner">
       <div>
-        <span class="eyebrow">The Genuine. The Original.&nbsp;&nbsp;Overhead Door Company of {{CITY}}™</span>
-        <h2>Garage Door Repair in <em>{{CITY}}</em></h2>
+        <span class="eyebrow">The Genuine. The Original.&nbsp;&nbsp;Overhead Door Company of Savannah™</span>
+        <h2>Garage Door Repair in <em>Savannah</em></h2>
         <p>Non-commission technicians. $0 service call with repair. Upfront pricing before we start any work. Don't wait — a broken spring today can be a fallen door tomorrow.</p>
-        <div class="cta-note">Overhead Door Company of {{CITY}}&#8482; &mdash; Since 1921</div>
+        <div class="cta-note">Overhead Door Company of Savannah&#8482; &mdash; Since 1921</div>
       </div>
       <div>
-        <a href="tel:{{PHONE}}" class="btn-primary" data-loc="cta-strip">
+        <a href="tel:9129648459" class="btn-primary" data-loc="cta-strip">
           <span class="ph-ring" aria-hidden="true">
             <svg viewBox="0 0 24 24"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1-9.4 0-17-7.6-17-17 0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1l-2.3 2.2z"/></svg>
           </span>
           <span class="cta-stack">
             <span class="cta-lbl">Call for Free Estimate</span>
-            <span>{{PHONE_DISPLAY}}</span>
+            <span>(912) 964-8459</span>
           </span>
         </a>
       </div>
@@ -659,15 +655,15 @@ button{font:inherit;cursor:pointer;border:none;background:none;color:inherit}
     <div class="form-wrap">
       <div class="form-head">
         <h2>Your door broke at the worst time. We get it.</h2>
-        <p>Fill out your info and we'll call you back within {{CALLBACK_TIME}} during business hours. No spam, no pressure.</p>
+        <p>Fill out your info and we'll reach out right away. No spam, no pressure.</p>
       </div>
       <div class="form-card">
         <!--
           FORMSTACK INTEGRATION
-          Set {{FORMSTACK_URL}} per franchise. The form POSTs to that URL
+          Set https://rutledgeactiontracker.formstack.com/forms/overhead_door_of_savannah per franchise. The form POSTs to that URL
           with all fields, plus 'city' and 'source' appended.
         -->
-        <form id="requestForm" data-action="{{FORMSTACK_URL}}" novalidate>
+        <form id="requestForm" data-action="https://rutledgeactiontracker.formstack.com/forms/overhead_door_of_savannah" novalidate>
           <div class="form-row">
             <div class="form-group">
               <label class="field-lbl" for="f-name">Name</label>
@@ -693,12 +689,12 @@ button{font:inherit;cursor:pointer;border:none;background:none;color:inherit}
           <button type="submit" class="form-submit" id="f-submit">Get My Free Estimate</button>
           <p class="form-note"><svg viewBox="0 0 24 24" style="width:10px;height:10px;fill:var(--muted);vertical-align:-1px;margin-right:3px;display:inline-block"><path d="M12 1L3 5v6c0 5.6 3.8 10.7 9 12 5.2-1.3 9-6.4 9-12V5l-9-4z"/></svg>$0 service call with any completed repair &mdash; no obligation estimate</p>
         </form>
-        <div class="form-alt">Fastest response: <a href="tel:{{PHONE}}" data-loc="form-alt">Call {{PHONE_DISPLAY}}</a></div>
+        <div class="form-alt">Fastest response: <a href="tel:9129648459" data-loc="form-alt">Call (912) 964-8459</a></div>
         <div class="form-success" id="formSuccess" role="status" aria-live="polite">
           <div class="success-ico"><svg viewBox="0 0 24 24"><path d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4z"/></svg></div>
           <h3>Request Received</h3>
-          <p>We will call you within {{CALLBACK_TIME}} during business hours.</p>
-          <div class="success-call">Need help now? Call <a href="tel:{{PHONE}}">{{PHONE_DISPLAY}}</a></div>
+          <p>We'll reach out right away.</p>
+          <div class="success-call">Need help now? Call <a href="tel:9129648459">(912) 964-8459</a></div>
         </div>
       </div>
     </div>
@@ -708,8 +704,8 @@ button{font:inherit;cursor:pointer;border:none;background:none;color:inherit}
 <!-- SERVICE AREA -->
 <section class="service-area">
   <div class="container">
-    <span class="eyebrow">Overhead Door Company of&nbsp;{{CITY}}™ Proudly Serving</span>
-    <div class="cities">{{CITY}} and surrounding areas: {{SERVICE_AREAS}}</div>
+    <span class="eyebrow">Overhead Door Company of&nbsp;Savannah™ Proudly Serving</span>
+    <div class="cities">Savannah and surrounding areas: Bryan, Bullock, Chatham, Effingham, Evans, Liberty, Long</div>
   </div>
 </section>
 
@@ -718,20 +714,20 @@ button{font:inherit;cursor:pointer;border:none;background:none;color:inherit}
   <div class="container">
     <div class="footer-grid">
       <div>
-        <img class="footer-logo" src="OHD_Ribbon_Web_White.svg" alt="Overhead Door Company of {{CITY}}&#8482;">
-        <div class="footer-brand-name">Overhead Door Company of {{CITY}}&#8482; &mdash; The Genuine. The Original. Since 1921.</div>
+        <img class="footer-logo" src="OHD_Ribbon_Web_White.svg" alt="Overhead Door Company of Savannah&#8482;">
+        <div class="footer-brand-name">Overhead Door Company of Savannah&#8482; &mdash; The Genuine. The Original. Since 1921.</div>
       </div>
       <div class="footer-phone-block">
         <span class="footer-lbl">Call for Free Estimate</span>
-        <a href="tel:{{PHONE}}" class="footer-num" data-loc="footer">
+        <a href="tel:9129648459" class="footer-num" data-loc="footer">
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1-9.4 0-17-7.6-17-17 0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1l-2.3 2.2z"/></svg>
-          {{PHONE_DISPLAY}}
+          (912) 964-8459
         </a>
-        <span class="footer-hours">{{HOURS_SHORT}}</span>
+        <span class="footer-hours">M-F 7:30AM - 4:30PM</span>
       </div>
     </div>
     <div class="footer-bottom">
-      <div>&copy; {{YEAR}} Overhead Door Company of {{CITY}}&#8482;. {{LICENSE}}</div>
+      <div>&copy; 2026 Overhead Door Company of Savannah&#8482;. </div>
       <div class="footer-links">
         <a href="/privacy-policy">Privacy</a>
         <a href="/terms">Terms</a>
@@ -745,10 +741,10 @@ button{font:inherit;cursor:pointer;border:none;background:none;color:inherit}
 <div class="sticky-mobile" id="stickyMobile" aria-hidden="true">
   <div class="sticky-status">
     <span class="sticky-dot" aria-hidden="true"></span>
-    <span>{{HOURS_SHORT}}</span>
+    <span>M-F 7:30AM - 4:30PM</span>
   </div>
-  <a href="tel:{{PHONE}}" data-loc="sticky-mobile">
-    <span><span class="sticky-lbl">Call for Free Estimate</span>{{PHONE_DISPLAY}}</span>
+  <a href="tel:9129648459" data-loc="sticky-mobile">
+    <span><span class="sticky-lbl">Call for Free Estimate</span>(912) 964-8459</span>
   </a>
 </div>
 
@@ -806,19 +802,19 @@ button{font:inherit;cursor:pointer;border:none;background:none;color:inherit}
       if (!name || !phone || !service) {
         btn.style.background = '#7A0020';
         btn.textContent = 'Please fill all required fields';
-        setTimeout(function(){ btn.style.background=''; btn.textContent='Request a Callback'; }, 2200);
+        setTimeout(function(){ btn.style.background=''; btn.textContent='Get My Free Estimate'; }, 2200);
         return;
       }
       btn.textContent = 'Sending\u2026'; btn.disabled = true;
       var action = form.getAttribute('data-action');
       var data = new FormData(form);
-      data.append('city','{{CITY}}'); data.append('source','google-ads-lp');
+      data.append('city','Savannah'); data.append('source','google-ads-lp');
       function finish(){
         form.style.display='none';
         var alt = document.querySelector('.form-alt');
         if (alt) alt.style.display='none';
         document.getElementById('formSuccess').classList.add('visible');
-        if (window.dataLayer) window.dataLayer.push({ event:'form_submission', city:'{{CITY}}', service_type:service });
+        if (window.dataLayer) window.dataLayer.push({ event:'form_submission', city:'Savannah', service_type:service });
       }
       if (!action || action.indexOf('{{') === 0) { setTimeout(finish, 700); return; }
       fetch(action, { method:'POST', body:data, mode:'no-cors' }).then(finish).catch(finish);
@@ -828,10 +824,9 @@ button{font:inherit;cursor:pointer;border:none;background:none;color:inherit}
   /* Call click tracking */
   document.addEventListener('click', function(e){
     var a = e.target.closest && e.target.closest('a[href^="tel:"]');
-    if (a && window.dataLayer) window.dataLayer.push({ event:'call_click', city:'{{CITY}}', location: a.dataset.loc||'unknown' });
+    if (a && window.dataLayer) window.dataLayer.push({ event:'call_click', city:'Savannah', location: a.dataset.loc||'unknown' });
   });
 })();
 </script>
 </body>
 </html>
-
